@@ -1,9 +1,15 @@
 import React from 'react'
 
-const CompA = props =>
+export const CompA = props =>
     <h1>Primeiro diz: {props.valor}</h1>
 
-const CompB = props =>
+export const CompB = props =>
     <h1>Segubdo diz: {props.valor}</h1>
 
-export {CompA, CompB}
+
+    
+// export default function (){
+
+// }
+
+//export {CompA, CompB}
